@@ -1,0 +1,184 @@
+html {
+    background-color: #000000;
+}
+
+p, h2, h3, a {
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+}
+
+b {
+    font-weight: 600;
+}
+
+h2.content {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.2
+}
+
+.marchio1 {
+    display: flex;
+    float: left;
+    padding: 15px;
+}
+
+header a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+header a:hover {
+    color: #878787;
+}
+
+header {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 35px;
+    overflow: hidden;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    margin: auto;
+  }
+
+  .row {
+    content: "";
+    display: flex;
+    clear: both;
+    margin-left: 100px;
+  }
+
+.content img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.content2 img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.content {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.content2 {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.title {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.title h2 {
+    font-size: 1.36em;
+}
+
+.title small {
+    font-size: smaller;
+}
+
+.hero3 img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.hero img {
+    max-width: 45%;
+    max-height: 45%;
+}
+
+.pianeti {
+    display: flex;
+    align-items: center;
+    gap: 1%;
+}
+
+.pianeti img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.heromarchio img {
+    width: 80%;
+    height: 80%;
+    max-width: 100%;
+    max-height: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding: 100px;
+}
+
+.herotext {
+    font-size: 35px;
+    padding-left: 0px;
+}
+
+.herodiv {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-top: 10px;
+}
+
+.hero2 img {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.top-image {
+    display: flex;
+    margin: 0px;
+    margin-bottom: 70px;
+    justify-content: center;
+}
+
+#bottom-logo {
+    margin-left: 37px;
+    padding: 0;
+    width: 117px;
+}
+
+footer {
+    display: block;
+    margin-top: 35px;
+}
+
+hr {
+    margin-bottom: 25px;
+}
+
+.spacing {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+footer a:hover {
+    color: #878787;
+}
