@@ -50,7 +50,10 @@ header nav ul {
 .row {
     display: flex;
     justify-content: space-around;
-  }
+    max-width: 100%;
+    gap: 10px;
+    margin: auto;
+}
 
 @media (max-width: 480px) {
     .row {
@@ -58,7 +61,31 @@ header nav ul {
 }    
 }
 
+.herotext {
+    font-size: 35px;
+    padding-left: 0px;
+}
+
+.herodiv {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-top: 10px;
+}
+
 .content img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.content {
+    padding-left: 7%;
+    padding-right: 12%;
+    padding-bottom: 5%;
+    padding-top: 1%;
+}
+
+.contenuto img {
     max-width: 100%;
     max-height: 100%;
 }
@@ -68,14 +95,9 @@ header nav ul {
     max-height: 100%;
 }
 
-.content {
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
 .content2 {
-    padding-left: 10%;
-    padding-right: 10%;
+    max-width: 700px;
+    margin: auto;
 }
 
 .title {
@@ -120,18 +142,6 @@ header nav ul {
     padding-left: 10%;
     padding-right: 10%;
     padding: 100px;
-}
-
-.herotext {
-    font-size: 35px;
-    padding-left: 0px;
-}
-
-.herodiv {
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    padding-top: 10px;
 }
 
 .hero2 img {
