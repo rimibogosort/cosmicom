@@ -55,7 +55,7 @@ header nav ul {
     margin: auto;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     .row {
     flex-direction:column;
 }    
@@ -80,7 +80,7 @@ header nav ul {
 
 .content {
     padding-left: 7%;
-    padding-right: 12%;
+    padding-right: 11%;
     padding-bottom: 5%;
     padding-top: 1%;
 }
