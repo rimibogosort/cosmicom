@@ -47,18 +47,16 @@ header nav ul {
     gap: 100px;
 }
 
-.column {
-    float: left;
-    width: 25%;
-    margin: auto;
+.row {
+    display: flex;
+    justify-content: space-around;
   }
 
-  .row {
-    content: "";
-    display: flex;
-    clear: both;
-    margin-left: 100px;
-  }
+@media (max-width: 480px) {
+    .row {
+    flex-direction:column;
+}    
+}
 
 .content img {
     max-width: 100%;
