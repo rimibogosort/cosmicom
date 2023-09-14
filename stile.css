@@ -55,12 +55,6 @@ header nav ul {
     margin: auto;
 }
 
-@media (max-width: 600px) {
-    .row {
-    flex-direction:column;
-}    
-}
-
 .herotext {
     font-size: 35px;
     padding-left: 0px;
@@ -184,4 +178,10 @@ footer a {
 
 footer a:hover {
     color: #878787;
+}
+
+@media (max-width: 300px) {
+    .row {
+    flex-direction: column;
+}    
 }
